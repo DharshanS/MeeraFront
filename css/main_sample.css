@@ -1,0 +1,300 @@
+a {
+    color: #151617;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+.row{
+    margin:0px;
+}  
+.nav_first{ 
+    border-bottom: 1px solid #000;
+    height: 52px;
+}
+
+
+.logbx img{
+	display: inline-block;
+    padding: 1px;
+    width: 150px;
+}
+.btnbook{
+	width: 90px;
+    float: left;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #e8650c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: -12px 0px;
+}
+
+.btncall{
+	width: 50px;
+    float: left;
+    height: 48px;
+    margin: -18px 0px 0px -18px;
+    background: url(../images/callicon.jpg) no-repeat;
+    background-size: 95%;
+}
+
+.lnkbar{
+        display:block;
+        margin-right:15%;
+ }
+
+ .moreopt{
+        display:block !important;
+ }
+ 
+ .cntbar{
+    margin-left:10%;
+ }
+ .logdiv{
+    text-align:center;
+ }
+ .logdiv img{
+    display:inline-block;
+ }
+ .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+
+#myNavbar{
+    padding: 1% 0%;
+}
+
+.navmain{
+    padding:0px;
+}
+
+.mrset{
+    display:none !important;
+}
+
+.navfst{
+    margin-bottom: 0px;
+}
+.clspck{
+    text-align: center;    
+    height: 150px;
+}
+.clspck > h1{
+    margin-top:5%;
+}
+.glimain{
+        padding: 0px 150px;
+ }
+
+.glimg{
+  padding:0px;
+  border:3px solid #fff;
+}
+
+.glimgsub{
+    margin-top: -20%;
+}
+
+.glimgsubs{
+    margin-top: -20%;
+    float: right;
+    right: 25%;
+}
+
+.imgperson{
+    width: 100px;
+    height: 100px;
+    background: url(../images/person.jpg) no-repeat;
+    background-size: 100%;
+    margin: 0% 5%;
+}
+.traveldetails
+{
+background-color: #f2f6f7;
+    padding: 5% 0%;
+}
+
+.packagedetail{
+    text-align:center;
+    padding:30px 0px;
+}
+.packagedetail p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.pckimg{
+    padding: 7px;
+    background-color: #e3eff1;
+}
+.pckimgp{
+    color:#56b1d8;
+    margin: -5px 0px 2px 0px;
+    font-weight: 600;
+}
+.pckimgp2{
+    text-decoration: line-through;
+}
+
+.pckimgp3{
+    float: right;
+    margin: -35px 69px;
+    font-size: 20px;
+    color: #56b1d8;
+}
+
+.pckall{
+ padding: 0% 2%;
+ margin-bottom: 5%;
+}
+
+.ticketbox{
+    height: 450px;
+    background-color:#fff;
+    border: 2px solid #473da9;
+    position: relative;
+    margin-top: -27%;
+    margin-left: 3%;
+}
+
+.btnflight , .btnhotel{
+    width: 90%;
+    height: 40px;
+    background-color: #483cb9;
+    margin: 20px 0px 20px 15px;
+    color: #fff;
+    text-align: center;
+}
+.btnflight > h4 , .btnhotel > h4{
+    padding: 10px;
+}
+
+.btnsearch{
+    width: 35%;
+    height: 40px;
+    background-color: #483cb9;
+    margin: 20px 0px 20px 15px;
+    color: #fff;
+    text-align: center;
+    float: right;
+}
+
+.btnsearch > h4 {
+    padding: 4px;
+}
+
+
+.clkheader{
+    width:1600px;
+    height:121px;
+    float:left;
+}
+.hdrleft{    
+    width:478px;
+    height:121px;
+    float:left;
+    position:relative;
+    margin:39px 0px 26px 0px;
+    background:url('../images/bookinglogo.png') no-repeat;
+    
+}
+.hdrmid{
+    width:474px;
+    height:121px;
+    float:left;
+    position:relative;    
+    margin:39px 0px 26px 0px;
+}
+
+.hdrgt{
+    width:490px;
+    height:121px;
+    float:left;
+    position:relative;    
+    margin:39px 0px 26px 0px;
+}
+
+.hdrgt > .imgbx{
+    float:left;
+    position:relative;
+    width:27px;
+    height:26px;
+}
+.imgbx > img{    
+    background:url('../images/phone.png') no-repeat;
+}
+.hdrgt > p{
+    background:url('../images/phone.png') no-repeat;
+    float:left;
+    position:relative;
+}
+
+
+@media (max-width: 768px){
+    .lnkbar{
+        display:none;
+    }
+    .cntbar{
+        text-align:center;
+        margin: auto;
+    }
+    .moreopt{
+        display:none !important;
+
+    }
+    .logdiv{
+      text-align:left;
+      margin:0px !important;
+    }
+    .logdiv img{
+      display:block;
+    }
+
+    #myNavbar{
+      padding:0%;
+      margin:0px ;
+
+    }
+   
+    #myNavbar > ul.navbar-nav{
+        margin:0px;
+    }
+    
+    .mrset{
+      display:block;
+    }
+
+    .clspck > div > h1{
+        font-size:24px;
+    }
+    .clspck{
+
+        height:100px; 
+    }
+    .glimain{
+        text-align:center; 
+         padding: 0px 0px;
+    }
+    .glimain > .glimg{
+            float: none;
+            display: inline-block;
+            margin-top:0px;
+    }
+
+    .glimgsub{
+       margin-top: 0%;
+    }
+
+    .glimgsubs{
+        margin-top: 0%;
+        float: none;
+        right: 0%;
+    }
+    
+    .pckall{
+        margin-bottom:5%;
+    } 
+
+    }
