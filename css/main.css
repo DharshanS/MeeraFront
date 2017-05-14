@@ -1,4 +1,4 @@
-html,body {
+/*html,body {
   height: 100%; margin: 0px; padding: 0px; }
 
 #navbar {
@@ -43,7 +43,7 @@ html,body {
   border-top: none; }
 
 .panel {
-  border:none; }
+  border:none; }*/
 .main_head{
     width:100%; /* 2000px */
     height:72px;    
@@ -181,7 +181,7 @@ select.selectpicker {
    appearance: none;
 }
 
-input {
+/*input {
     -webkit-appearance: textfield;
     background-color: white;
     -webkit-rtl-ordering: logical;
@@ -196,7 +196,7 @@ input {
     border-style: inset;
     border-color: initial;
     border-image: initial;
-}
+}*/
 
 .sladult , .slchildren , .slinfants , .slcls{
    width: 72px;
@@ -346,4 +346,312 @@ input {
   width: 50px;
   height: 50px;
   display: block;
+}
+
+
+
+.phonecls{
+    background: url(../images/phoneicon.png) no-repeat 2px;
+    background-size: 10%;      
+}
+
+.fstsub>li>a {
+    position: relative;
+    display: block;
+    padding: 25px 35px;
+    font-size: 19px;
+    font-family:Myriad Pro;
+   
+}
+
+ th{
+    padding: 25px 30px;
+    background-color: #167ff1;
+    font-family: Myriad Pro;
+    color: #fff;
+    
+}
+
+td {
+   padding: 50px 0px;
+    
+}
+
+tbody{
+    background-color:#ebeef0; 
+}
+
+input{
+   padding: 0px 5px;
+   height:20px;
+   font-size: 16px;
+   
+}
+.flightbtn{
+    width:80px;
+    height:100px;
+    background: url('../images/flightbtn.png') no-repeat;
+    position: relative;
+    z-index:1;
+    
+}
+
+.btnsearch{
+    position: absolute;
+    width: 90px;
+    height: 55px;
+    margin: -16px -2px;
+    border-radius: 10px;
+}
+
+.flightdetails > div {
+    padding:0px !important;
+}
+textarea{
+    border:none;
+}
+
+/*.fstcol > div > input{
+  border:none;
+  //background-color:#ffffff;  
+  //text-align:center; 
+}
+
+.sedcol  > div > input{
+  border:none;
+ // background-color: #ebeef0;   
+  //text-align:center;
+} 
+*/
+
+
+input:focus {
+    outline-offset: -2px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+.lbltxtarea{
+    width: 90%;
+    border:none;
+    font-size: 12px; 
+}
+
+.txtradio{
+    height: 15px;
+    float: left;
+    margin: 1px 8px !important;
+}
+
+.flight_main{
+    background-color:#ebeef0;
+}
+
+.flight_main > .navbar{
+    padding: 30px 100px 0px 100px;
+}
+
+.flight_con{
+    text-align: center;
+}
+
+.flight_con > .fstrow{
+    padding: 70px 25px 0px 25px;
+    width: 85%;
+    display: inline-block;
+}
+
+.fstrow > .fstmainrow{
+    background-color: #167ff1;
+    padding: 2px 20px;
+    color: #fff;;
+    font-family: Myriad Pro;
+}
+
+.fstcol1{
+    padding: 2% 0% 0% 0%;
+}
+
+.secrow{
+    padding: 0px 25px;
+    width: 85%;
+    display: inline-block;
+}
+.secrowmain{
+    height: 80px;
+    padding: 20px 0px 0px 0px;
+    font-family: Myriad Pro;
+    background-color: #ebeef0;
+}
+
+.secrowcol1{
+    margin: 0% -3% 0% 0%;
+    text-align:left;
+    padding: 0px 10px !important;
+}
+
+.secrowcol2{
+    margin: 0% 7% 0% 0%;
+} 
+
+.secrowcol3{
+    margin: 0px 0px 0px 25px;
+}
+
+.secrowcol4{
+    margin: 0px 3px 0px 5px;
+}
+
+.secrowcol5{
+   margin: 0px 0px 0px -24px;
+   
+}
+
+.thdrowmain{
+    padding:0px 0px 25px 0px;
+    font-family: Myriad Pro;
+    background-color: #ebeef0;
+}
+
+.thdrowcol1{
+    margin: 0% -3% 0% 0%;
+}
+
+.thdrowcol2{
+    margin: 0% 7%;
+}
+
+.thdrowcol3{
+    margin: 0% -6%;
+}
+
+.thdrowcol4{
+    margin: 0% -9%;
+}
+
+.frthrowmain{
+    padding: 70px 25px 0px 25px;
+    width: 85%;
+    display: inline-block;
+}
+
+.frthrowsub{
+    height:70px;
+    padding: 20px 20px 0px 20px;
+    font-family: Myriad Pro;
+    background:url('../images/border1.png')
+}
+
+.frthrowmain > table{
+    width:50%;
+    background-color:#ebeef0;
+    float:left;
+}
+
+.tblfst{
+   background-color:#fff;
+}
+
+.tblscd{
+    background-color:#ebeef0;
+}
+
+.tblfst > td , .tblscd >td{
+    width:70px;
+    padding: 30px 0px;
+}
+
+.tblfst > td > textarea{
+    width:128px;
+    height:70px;
+    border:none;
+}
+
+.tblscd > td > textarea{
+    width:128px;
+    height:70px;
+    background-color:#ebeef0;
+}
+
+.ticketright{
+    width:30.3%;
+    background-color:#ebeef0;
+    height:275px;
+    margin-top: -2px;
+    float:left;
+    background:url('../images/ticket1.png');
+    
+}
+
+#depchildid{
+    width: 50%;
+    float:left;
+    margin: 0px 0px 0px -23px;
+    border:none;
+}
+
+#depinfantid{
+    width: 50%;
+    float:left;
+    margin: 0px 0px 0px 9px;
+    border:none;
+}
+
+#depclassid{
+    width: 110px;
+    margin: 0px 0px 0px 6px;
+    border:none;
+}
+
+#depairlnid{
+    margin: 0px 82px;
+    float: left;
+    width: 120px;
+    border:none;
+    
+}
+
+.secrowcol3 > .lbltxtarea{
+    width: 50%;
+}
+
+.secrowcol4 > .scdlbl{
+    width: 50%;
+    float:left;
+    margin: 0px 0px 0px 9px;
+}
+
+.secrowcol4 > .fstlbl{
+    width: 50%;
+    float:left;
+    margin: 0px 0px 0px -23px;
+}
+
+.thdrowcol3 > .lbltxtarea{
+    width: 110px;
+    margin: 0px 0px 0px 6px;
+}
+
+.thdrowcol4 > .lbltxtarea{
+    margin: 0px 82px;
+    float: left;
+    width: 120px;
+}
+
+#departfromid , #depdestinationid ,#depdateid ,#deparriveid{
+    width: 200px;
+    border:none;
+}
+
+#depadultid{
+    width: 50%;
+    border:none;
+}
+#departfromid {
+    width:100px;
 }
