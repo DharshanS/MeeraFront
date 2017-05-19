@@ -124,6 +124,7 @@ ul.fstsub > li > a.btnphone{
     height: 37px;
     background: url(../images/flight.png)no-repeat 0px 0px;
     width: 140px;
+    border:none;
 }
 
 .hotlparent{
@@ -402,6 +403,7 @@ input{
     height: 55px;
     margin: -16px -2px;
     border-radius: 10px;
+    border:none;
 }
 
 .flightdetails > div {

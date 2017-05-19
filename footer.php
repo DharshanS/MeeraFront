@@ -1,6 +1,6 @@
 <!--=== Footer Version 1 ===-->
 <div class="footer-v1" >
-    <div class="footer" style='padding:10% 0%'>
+    <div class="footer fotcls">
         <div class="container">
             <div class='col-lg-3 col-md-3' style='text-align:center'>
                 <h3>About Us</h3>
@@ -36,9 +36,9 @@
     </div><!--/footer-->
 
     <div class="copyright">
-        <div class="container">
-            <div class='col-lg-12' style='text-align:center;font-family:Myriad Pro;'>Copyright@Meera 2017, All Rights Reserved</div>
-        </div>
+        
+            <div class='col-lg-12 fotcopy'>Copyright@Meera 2017, All Rights Reserved</div>
+        
     </div><!--/copyright-->
 </div>
 <!--=== End Footer Version 1 ===--> 

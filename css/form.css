@@ -1,0 +1,298 @@
+.flight_main{
+    background-color:#ebeef0;
+}
+
+.flight_main > .navbar{
+    padding: 30px 100px 0px 100px;
+}
+
+.fstsub > li{
+    float:left;
+}
+.phonecls{
+    background: url(../images/phoneicon.png) no-repeat 2px;
+    background-size: 10%;      
+}
+
+.flicon{
+   background: url(../images/ticketsimble.png) no-repeat;
+   width: 50px;
+   height: 50px;
+   background-size: 60%;
+}
+
+.arricon{
+    background: url(../images/arrow.png) no-repeat;
+    width: 50px;
+    height: 35px;
+    background-size: 60%;
+}
+
+.lblcls{
+   font-size: 12px;
+   text-align: left;
+}
+
+.clspad{
+    padding:0px;
+    text-align: center;
+}
+
+.ticbck{
+   background: url(../images/bcktic.png) no-repeat; 
+   height:150px;
+   position: absolute;
+   float: right;
+   right: 3.4%;
+}
+
+.ticfront{
+   text-align: right;
+    padding: 14%;
+    color: #fff;
+    font-size: 12px;
+}
+.tblgrand{
+    width: 77%;
+    float: right;
+    background-color:#ffffff;
+}
+
+.tblgrand > tbody > tr > td {
+  font-size:11px;
+  padding: 3px 4px;
+}
+
+.tblgrand > tbody > tr > td > label{
+  height:5px;
+}
+
+.btnpaylate{
+  background: url(../images/btnpay.png) no-repeat;
+  width:200px;
+  height:200px;
+  background-size:contain;
+  border:none;
+}
+
+.btnpaynow{
+  background: url(../images/btnpaynow.png) no-repeat;
+  width:250px;
+  height:250px;
+  background-size: cover;
+  border:none;
+}
+
+.btnembassy{
+  background: url(../images/btnembasy.png) no-repeat;
+  width:200px;
+  height:200px;
+  background-size:contain;
+  border:none;
+}
+
+.confrmtic{
+   margin-top: 8%;
+   
+}
+
+.confrmcol{
+    margin: 0% 0%;
+    padding: 14px 0px;
+    background-color:#ffffff;
+}
+
+.confrmcol1{
+    background-color:#ffffff;
+}
+
+.confrmcols{
+   border-bottom: 1px solid #000; 
+}
+
+.flticbar{
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 63px;
+    padding: 0px;
+}
+
+.flticbar a{
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.lbltfront{
+    padding: 6px;
+}
+
+.lblsec{
+    font-size: 24px;
+}
+
+.ticsec{
+    margin-top: -31px;
+    float: right;
+    margin-right: 37px;
+}
+
+.ticsec a{
+    color:#fff;
+}
+
+.ticthr{
+    float: right;
+    right: 0%;
+    padding: 0px;
+    margin: 0px -6px;
+}
+
+.headersty{
+    font-family:Myriad Pro;
+    font-size:16px;
+}
+
+.lblin{
+    font-weight: bold;
+    font-size:11px;
+}
+
+.infrm1{
+    font-weight: bold;
+    width:100px;
+}
+
+.infrm{
+    font-weight: bold;
+    width:200px;
+}
+
+.lblnote{
+    font-size: 11px;
+    color: #464eb9;
+    margin-top: 10px;
+}
+
+.infrm2{
+    font-weight: bold;
+    width:150px;
+}
+
+.ticfour{
+    margin-top: 3%;
+    
+}
+
+.ticfoursub{
+    background-color:#ececec;
+    padding: 3% 0%;
+}
+
+.lblcontact{
+    border-bottom:1px solid #000;
+}
+
+.lblborder{
+ font-weight: bold;
+}
+
+.areacontact{
+    margin-top:2%;
+}
+
+.pagepg{
+    background-color:#d7d5d5;
+}
+.clshead{
+    background-color: #ffffff;
+    padding: 6px 0px;
+}
+
+.clshead1{
+    margin-top: 2%;
+    background-color: #ffffff;
+    padding: 2% 0%;
+}
+
+.subcontact{
+   background-color: #ffffff;
+   padding: 3% 0%;
+}
+
+.ticfv{
+    text-align:center;
+    padding:3% 0%;
+}
+
+.ticfvsub{
+    font-size:26px;
+    text-transform: uppercase;
+    color:#fff;
+    font-family:Myriad Pro;
+}
+
+.btncls{
+    text-align:center;
+}
+
+.btncls1{
+    text-align:center;
+    padding:2%;
+}
+
+.empcls{
+   margin-bottom: 2%;
+}
+
+.efrmcls{
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 15px;
+ }
+ 
+ .fotcls{
+    padding: 5% 0%;
+    background-color: #fff;
+    margin-top: 5%;
+ }
+ .fotcopy{
+    text-align: center;
+    font-family: Myriad Pro;
+    margin-top: 2%;
+    background-color: #fff;
+    padding: 1% 0px;
+    border-top: 1px solid #cabdbd;
+ }
+ 
+ .emppurpose{
+     width:60%;
+ }
+ .empsurname{
+    width:90%; 
+ }
+ .empother{
+    width:82%; 
+ }
+ .btncontinue{
+    float: right;
+    right: 11%;
+    padding: -10px;
+    position: relative;
+    margin-top: -4%;
+    padding: 10px;
+    background-color:#003eff;
+    border:none;
+ }
+ #frmempassy{
+     display:none;
+ }
+ 
+ .clsheadopt {
+    background-color: #ffffff;
+    padding: 6px 0px;
+    text-align: center;
+    font-family: Myriad Pro;
+   
+}
+ 
