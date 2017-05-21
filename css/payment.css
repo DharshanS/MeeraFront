@@ -1,0 +1,127 @@
+.flight_main{
+    background-color:#ebeef0;
+}
+
+.flight_main > .navbar{
+    padding: 30px 100px 0px 100px;
+}
+
+.fstsub > li{
+    float:left;
+}
+.phonecls{
+    background: url(../images/phoneicon.png) no-repeat 2px;
+    background-size: 10%;      
+}
+.clsheadopt {
+    background-color: #ffffff;
+    padding: 6px 0px;
+    text-align: center;
+    font-family: Myriad Pro;
+   
+}
+
+.fotcls{
+    padding: 5% 0%;
+    background-color: #fff;
+    margin-top: 5%;
+ }
+ .fotcopy{
+    text-align: center;
+    font-family: Myriad Pro;
+    margin-top: 2%;
+    background-color: #fff;
+    padding: 1% 0px;
+    border-top: 1px solid #cabdbd;
+ }
+ 
+ .clsdebit{
+     font-family:Myriad Pro;
+     font-size:16px;
+     color:#5a5959;
+     font-weight: bold;
+ }
+ .payfirst{
+    padding: 2% 0%;
+    background-color: #ebeef0;
+ }
+ 
+ .cardcls{
+   text-align: left;   
+   padding: 20px 0px;
+   font-size: 18px;
+   color:#5a5959;
+ }
+ 
+ .cardcls1{
+   text-align: left;   
+   padding: 18px 0px;
+   font-size: 18px;
+   color:#5a5959;
+ }
+ 
+ .cardcls2{
+   text-align: left;   
+   padding: 8px 0px;
+   font-size: 18px;
+   color:#5a5959;
+ }
+ 
+ .imgcls{
+    text-align: center;   
+ }
+ 
+ .imgclsimg{
+    padding:0px;
+ }
+ .radioon{
+     background:url('../images/radion.png')no-repeat;
+     width:50px;
+     height:50px;
+     margin:-10px -4px;
+     position:absolute; 
+ }
+ 
+ .radiooff{
+     background:url('../images/radioff.png')no-repeat;
+     width:50px;
+     height:50px;
+     margin:-10px -4px;
+     position:absolute; 
+ }
+ 
+ .backbtn{
+    background:url('../images/backbtn.png')no-repeat; 
+    width: 200px;
+    height: 80px;
+    float:right;
+ }
+ 
+ .mkpayment{
+    background:url('../images/mkpayment.png')no-repeat; 
+    width: 665px;
+    height: 80px;
+ }
+ 
+ .backbtncls{
+     padding: 0px 20px;
+ }
+ 
+ .totcls{
+     font-family:Myriad Pro;
+     font-size:30px;
+     color:#5a5959;
+     float:right;
+ }
+ .totcls1{
+     font-family:Myriad Pro;
+     font-size:30px;
+     color:#5a5959;
+ }
+  
+ .totmain{    
+    padding: 2% 0%;
+ }
+ .titlecls{
+     text-align:right;
+ }
